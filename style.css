@@ -495,15 +495,11 @@ input:checked + label > .knob > i:before {
   left: 0px;
   transform: rotate(134deg);
 }
-
 .ad-banner {
     width: 320px;
     margin: 0 auto;
 }
-
-
 .ad-banner {
-    margin-bottom: 5 auto;
     width: 320px;
     margin: 0 auto;
 }
