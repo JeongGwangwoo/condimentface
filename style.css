@@ -496,7 +496,7 @@ input:checked + label > .knob > i:before {
   transform: rotate(134deg);
 }
 
-.ad-upperbanner {
+.ad-banner {
     width: 320px;
     margin: 0 auto;
 }
