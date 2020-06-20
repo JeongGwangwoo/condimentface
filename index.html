@@ -121,8 +121,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
     <script type="text/javascript">
         let URL;
-        const urlMale = "https://teachablemachine.withgoogle.com/models/8WM1s72M7/";
-        const urlFemale = "https://teachablemachine.withgoogle.com/models/8WM1s72M7/";
+        const urlMale = "https://teachablemachine.withgoogle.com/models/l1J_qBrFV/";
+        const urlFemale = "https://teachablemachine.withgoogle.com/models/l1J_qBrFV/";
         let model, webcam, labelContainer, maxPredictions;
         async function init() {
             if (document.getElementById("gender").checked) {
@@ -149,47 +149,47 @@
             var resultTitle, resultExplain, resultCeleb;
             if (document.getElementById("gender").checked) {
                 switch (prediction[0].className) {
-                    case "간장얼굴":
+                    case "shoyu":
                         resultTitle = "しょうゆ顔"
                         resultExplain = "しょうゆ顔とは、日本人らしいすっきりとした顔のことをいいます。小顔・彫りが浅い・唇が薄いことなどが特徴で、塩顔よりはやや濃いめですが、日本人らしい顔立ちを「しょうゆ顔」と称することが多いです。"
                         resultCeleb = "しょうゆ顔の代表的な芸能人: 二宮和也さん, 向井理さん, 福山雅治 さん, 小栗旬さん"
                         break;
-                    case "된장얼굴":
+                    case "miso":
                         resultTitle = "みそ顔"
                         resultExplain = "よくハーフっぽいと例えられるソース顔よりも濃さがなく、どこかまろやかで日本人らしさをまとうのが特徴。そこで、和食に欠かせない調味料「みそ」で例えられるようになったんです。"
                         resultCeleb = "みそ顔の代表的な芸能人: 渡辺謙さん, 池内博之さん, 坂口憲二さん"
                         break;
-                    case "마요네즈얼굴":
+                    case "mayo":
                         resultTitle = "マヨネーズ顔"
                         resultExplain = "マヨネーズ顔とは、少年らしさと大人の色気が混ざった顔立ちのことをいいます。子どものあどけなさと大人の色っぽさを感じられる贅沢な顔です。"
                         resultCeleb = "マヨネーズ顔の代表的な芸能人: 国分太一さん, 岡田 将生さん, 藤原竜也さん, 稲垣吾郎さん"
                         break;
-                    case "설탕얼굴":
+                    case "satou":
                         resultTitle = "砂糖顔"
                         resultExplain = "砂糖顔とは、まるで少年のようなベビーフェイスが特徴の顔立ちです。目がクリクリ丸くて童顔、輪郭は丸めで、かわいい雰囲気の人が多いです。女性の母性本能をくすぐります。"
                         resultCeleb = "砂糖顔の代表的な芸能人: 小池徹平さん, 瀬戸浩二さん, 千葉雄大さん, 岩田 剛典さん"
                         break;
-                    case "소금얼굴":
+                    case "shio":
                         resultTitle = "塩顔"
                         resultExplain = "塩顔とは、色白であっさりした薄い顔のことをいいます。一重か奥二重のすっきりとした目元・鼻が高い・色白で輪郭がシャープといった特徴があり、クールでミステリアスな印象が強いです。"
                         resultCeleb = "塩顔の代表的な芸能人: 坂口健太郎さん, 及川光博さん, 森山未來さん, 高橋一生"
                         break;
-                    case "소스얼굴":
+                    case "sause":
                         resultTitle = "ソース顔"
                         resultExplain = "ソース顔とは、日本人離れした濃い顔立ちのことをいいます。くっきり二重で、彫りが深く、「まるで外国人？」と思うような顔をしています。"
                         resultCeleb = "ソース顔の代表的な芸能人: 阿部寛さん, 平井堅さん, 山田孝之さん, 坂口憲二さん"
                         break;
-                    case "식초얼굴":
+                    case "su":
                         resultTitle = "酢顔"
                         resultExplain = "酢顔とは、塩顔よりもさらにあっさりした顔立ちのことをいいます。目は一重でかなり細く、色白でパーツがどれも薄めの顔をしています。"
                         resultCeleb = "酢顔の代表的な芸能人: 藤原基央さん, 綾野剛さん"
                         break;
-                    case "올리브유얼굴":
+                    case "olive":
                         resultTitle = "オリーブオイル顔"
                         resultExplain = "オリーブオイル顔とはオリーブオイルを本当に好きです。"
                         resultCeleb = "オリーブオイル顔の代表的な芸能人: 速水もこみちさん"
                         break;
-                    case "케챱얼굴":
+                    case "ketchup":
                         resultTitle = "ケチャップ顔"
                         resultExplain = "ケチャップ顔とは、ソース顔ほど濃くなく、しょうゆ顔より濃い顔のことをいいます。ソース顔に日本人らしさが加わったような、目鼻立ちはある程度はっきりしつつも、あっさりとした顔立ちが特徴です。"
                         resultCeleb = "ケチャップ顔の代表的な芸能人: 要潤さん, 竹野内豊さん, 斎藤 工さん"
@@ -201,47 +201,47 @@
                 }
             } else {
                 switch (prediction[0].className) {
-                    case "간장얼굴":
+                    case "shoyu":
                         resultTitle = "しょうゆ顔"
                         resultExplain = "しょうゆ顔とは、日本人らしいすっきりとした顔のことをいいます。小顔・彫りが浅い・唇が薄いことなどが特徴で、塩顔よりはやや濃いめですが、日本人らしい顔立ちを「しょうゆ顔」と称することが多いです。"
                         resultCeleb = "しょうゆ顔の代表的な芸能人: 二宮和也さん, 向井理さん, 福山雅治 さん, 小栗旬さん"
                         break;
-                    case "된장얼굴":
+                    case "miso":
                         resultTitle = "みそ顔"
                         resultExplain = "よくハーフっぽいと例えられるソース顔よりも濃さがなく、どこかまろやかで日本人らしさをまとうのが特徴。そこで、和食に欠かせない調味料「みそ」で例えられるようになったんです。"
                         resultCeleb = "みそ顔の代表的な芸能人: 渡辺謙さん, 池内博之さん, 坂口憲二さん"
                         break;
-                    case "마요네즈얼굴":
+                    case "mayo":
                         resultTitle = "マヨネーズ顔"
                         resultExplain = "マヨネーズ顔とは、少年らしさと大人の色気が混ざった顔立ちのことをいいます。子どものあどけなさと大人の色っぽさを感じられる贅沢な顔です。"
                         resultCeleb = "マヨネーズ顔の代表的な芸能人: 国分太一さん, 岡田 将生さん, 藤原竜也さん, 稲垣吾郎さん"
                         break;
-                    case "설탕얼굴":
+                    case "satou":
                         resultTitle = "砂糖顔"
                         resultExplain = "砂糖顔とは、まるで少年のようなベビーフェイスが特徴の顔立ちです。目がクリクリ丸くて童顔、輪郭は丸めで、かわいい雰囲気の人が多いです。女性の母性本能をくすぐります。"
                         resultCeleb = "砂糖顔の代表的な芸能人: 小池徹平さん, 瀬戸浩二さん, 千葉雄大さん, 岩田 剛典さん"
                         break;
-                    case "소금얼굴":
+                    case "satou":
                         resultTitle = "塩顔"
                         resultExplain = "塩顔とは、色白であっさりした薄い顔のことをいいます。一重か奥二重のすっきりとした目元・鼻が高い・色白で輪郭がシャープといった特徴があり、クールでミステリアスな印象が強いです。"
                         resultCeleb = "塩顔の代表的な芸能人: 坂口健太郎さん, 及川光博さん, 森山未來さん, 高橋一生"
                         break;
-                    case "소스얼굴":
+                    case "sause":
                         resultTitle = "ソース顔"
                         resultExplain = "ソース顔とは、日本人離れした濃い顔立ちのことをいいます。くっきり二重で、彫りが深く、「まるで外国人？」と思うような顔をしています。"
                         resultCeleb = "ソース顔の代表的な芸能人: 阿部寛さん, 平井堅さん, 山田孝之さん, 坂口憲二さん"
                         break;
-                    case "식초얼굴":
+                    case "su":
                         resultTitle = "酢顔"
                         resultExplain = "酢顔とは、塩顔よりもさらにあっさりした顔立ちのことをいいます。目は一重でかなり細く、色白でパーツがどれも薄めの顔をしています。"
                         resultCeleb = "酢顔の代表的な芸能人: 藤原基央さん, 綾野剛さん"
                         break;
-                    case "올리브유얼굴":
+                    case "olive":
                         resultTitle = "オリーブオイル顔"
                         resultExplain = "オリーブオイル顔とはオリーブオイルを本当に好きです。"
                         resultCeleb = "オリーブオイル顔の代表的な芸能人: 速水もこみちさん"
                         break;
-                    case "케챱얼굴":
+                    case "ketchup":
                         resultTitle = "ケチャップ顔"
                         resultExplain = "ケチャップ顔とは、ソース顔ほど濃くなく、しょうゆ顔より濃い顔のことをいいます。ソース顔に日本人らしさが加わったような、目鼻立ちはある程度はっきりしつつも、あっさりとした顔立ちが特徴です。"
                         resultCeleb = "ケチャップ顔の代表的な芸能人: 要潤さん, 竹野内豊さん, 斎藤 工さん"
@@ -267,31 +267,31 @@
                 }
                 var labelTitle;
                 switch (prediction[i].className) {
-                    case "간장얼굴":
+                    case "shoyu":
                         labelTitle = "しょうゆ顔"
                         break;
-                    case "된장얼굴":
+                    case "miso":
                         labelTitle = "みそ顔"
                         break;
-                    case "마요네즈얼굴":
+                    case "mayo":
                         labelTitle = "マヨネーズ顔"
                         break;
-                    case "설탕얼굴":
+                    case "satou":
                         labelTitle = "砂糖顔"
                         break;
-                    case "소금얼굴":
+                    case "shio":
                         labelTitle = "塩顔"
                         break;
-                    case "소스얼굴":
+                    case "sause":
                         labelTitle = "ソース顔"
                         break;
-                    case "식초얼굴":
+                    case "su":
                         labelTitle = "酢顔"
                         break;
-                    case "올리브유얼굴":
+                    case "olive":
                         labelTitle = "オリーブオイル顔"
                         break;
-                    case "케챱얼굴":
+                    case "ketchup":
                         labelTitle = "ケチャップ顔"
                         break;
                     default:
