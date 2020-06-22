@@ -5,7 +5,7 @@ body {
   color: #35465d;
 }
 .file-upload {
-    padding: 15% 3%;
+    padding: 1% 3%;
     margin: 0 auto;
     border-radius: 10px;
     border: solid 1.5px #f6f7fa;
@@ -199,7 +199,7 @@ body {
 .bar-container {
   height: 2.7rem;
 }
-.간장얼굴-box {
+.shoyu-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -208,7 +208,7 @@ body {
   width: 100%;
   background-color: rgba(117, 204, 84, 0.2);
 }
-.간장얼굴-bar {
+.shoyu-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -216,7 +216,7 @@ body {
   border-radius: 10px;
   background-color: rgba(117, 204, 84, 1);
 }
-.된장얼굴-box {
+.miso-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -225,7 +225,7 @@ body {
   width: 100%;
   background-color: rgba(117, 204, 84, 0.2);
 }
-.된장얼굴-bar {
+.miso-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -233,7 +233,7 @@ body {
   border-radius: 10px;
   background-color: rgba(117, 204, 84, 1);
 }
-.마요네즈얼굴-box {
+.mayo-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -242,7 +242,7 @@ body {
   width: 100%;
   background-color: rgba(27, 175, 234, 0.2);
 }
-.마요네즈얼굴-bar {
+.mayo-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -250,7 +250,7 @@ body {
   border-radius: 10px;
   background-color: rgba(27, 175, 234, 1);
 }
-.설탕얼굴-box {
+.satou-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -259,7 +259,7 @@ body {
   width: 100%;
   background-color: rgba(251, 176, 59, 0.2);
 }
-.설탕얼굴-bar {
+.satou-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -267,7 +267,7 @@ body {
   border-radius: 10px;
   background-color: rgba(251, 176, 59, 1);
 }
-.소금얼굴-box {
+.shio-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -276,7 +276,7 @@ body {
   width: 100%;
   background-color: rgba(195, 140, 102, 0.2);
 }
-.소금얼굴-bar {
+.shio-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -284,7 +284,7 @@ body {
   border-radius: 10px;
   background-color: rgba(195, 140, 102, 1);
 }
-.소스얼굴-box {
+.sause-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -293,7 +293,7 @@ body {
   width: 100%;
   background-color: rgba(49, 132, 155, 0.2);
 }
-.소스얼굴-bar {
+.sause-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -301,7 +301,7 @@ body {
   border-radius: 10px;
   background-color: rgba(49, 132, 155, 1);
 }
-.식초얼굴-box {
+.su-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -310,7 +310,7 @@ body {
   width: 100%;
   background-color: rgba(235, 166, 190, 0.2);
 }
-.식초얼굴-bar {
+.su-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -318,7 +318,8 @@ body {
   border-radius: 10px;
   background-color: rgba(235, 166, 190, 1);
 }
-.올리브유얼굴-box {
+.olive-box {
+    margin: 0 auto;
   position: absolute;
   top: 0;
   left: 0;
@@ -327,7 +328,8 @@ body {
   width: 100%;
   background-color: rgba(235, 166, 190, 0.2);
 }
-.올리브유얼굴-bar {
+.olive-bar {
+    margin: 0 auto;
   position: absolute;
   top: 0;
   left: 0;
@@ -335,7 +337,7 @@ body {
   border-radius: 10px;
   background-color: rgba(235, 166, 190, 1);
 }
-.케챱얼굴-box {
+.ketchup-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -344,7 +346,7 @@ body {
   width: 100%;
   background-color: rgba(235, 166, 190, 0.2);
 }
-.케챱얼굴-bar {
+.ketchup-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -356,7 +358,7 @@ body {
   font-size: 1rem;
   color: #ffffff;
 }
-.animal-label {
+.condiment-label {
     width: 20%;
     text-align: left;
     height: 2rem;
@@ -370,63 +372,76 @@ body {
 }
 
 
-.animal-explain {
+.condiment-explain {
+    margin: 0 auto;
     font-size: 1.5rem;
 }
-.dinosaur-animal-title {
+.shoyu-condiment-title {
     color: #3ba363;
 }
-.dinosaur-animal-celeb {
-    color: #3ba363;
-    font-size: 1.2rem;
-}
-.deer-animal-title {
-    color: #3ba363;
-}
-.deer-animal-celeb {
+.shoyu-condiment-celeb {
     color: #3ba363;
     font-size: 1.2rem;
 }
-.cat-animal-title {
+.miso-condiment-title {
+    color: #3ba363;
+}
+.miso-condiment-celeb {
+    color: #3ba363;
+    font-size: 1.2rem;
+}
+.mayo-condiment-title {
     color: #ff6c0a;
 }
-.cat-animal-celeb {
+.mayo-condiment-celeb {
     color: #ff6c0a;
     font-size: 1.2rem;
 }
-.dog-animal-title {
+.satou-condiment-title {
     color: #548dd4;
 }
-.dog-animal-celeb {
+.satou-condiment-celeb {
     color: #548dd4;
     font-size: 1.2rem;
 }
-.rabbit-animal-title {
+.shio-condiment-title {
     color: #e56995;
 }
-.rabbit-animal-celeb {
+.shio-condiment-celeb {
     color: #e56995;
     font-size: 1.2rem;
 }
-.bear-animal-title {
+.sause-condiment-title {
     color: #9b6b43;
 }
-.bear-animal-celeb {
+.sause-condiment-celeb {
     color: #9b6b43;
     font-size: 1.2rem;
 }
-.fox-animal-title {
+.su-condiment-title {
     color: #31849b;
 }
-.fox-animal-celeb {
+.su-condiment-celeb {
+    color: #31849b;
+    font-size: 1.2rem;
+}
+.olive-condiment-title {
+    margin: 0 auto;
+    color: #31849b;
+}
+.olive-condiment-celeb {
+    margin: 0 auto;
+    color: #31849b;
+    font-size: 1.2rem;
+}
+.ketchup-condiment-title {
+    color: #31849b;
+}
+.ketchup-condiment-celeb {
     color: #31849b;
     font-size: 1.2rem;
 }
 
-/* gender */
-input#gender {
-  display: none;
-}
 
 label {
   cursor: pointer;
@@ -502,9 +517,4 @@ input:checked + label > .knob > i:before {
   width: 12px;
   left: 0px;
   transform: rotate(134deg);
-}
-
-.ad-banner {
-    width: 320px;
-    margin: 0 auto;
 }
