@@ -26,6 +26,18 @@
 </head>
 
 <body>
+    <section class="container d-flex flex-column justify-content-center align-items-center">
+        <span class="select-language">Language</span>
+        <select onchange="changeLanguage(this)" class="custom-select col-8">
+            <option value="en" lang="en">English</option>
+            <option value="ko" lang="ko">한국어</option>
+            <option value="es" lang="es">español</option>
+            <option value="ja" lang="ja">日本語</option>
+            <option value="zh" lang="zh">中文</option>
+            <option value="vi" lang="vi">tiếng Việt</option>
+            <option value="id" lang="id">Bahasa Indonesia</option>
+        </select>
+    </section>
     <nav class="p-3 container navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="https://condimentface.ga/">調味料顔テスト</a>
     </nav>
